@@ -1,7 +1,8 @@
-import {Product_List, Set_Product_List} from "./constant"
-export const getProductList = () =>{
-    return{
-        type : Product_List,
+import { Product_List } from "./constant"
+
+export const productList = () => {
+    console.log("Product List Here !!")
+    return {
+        type: Product_List,
     }
 }
-
