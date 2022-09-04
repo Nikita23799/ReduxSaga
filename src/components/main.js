@@ -29,6 +29,19 @@ function Main() {
             <div>
                 <button onClick={() => dispatch(getProductList(product))}>Product List</button>
             </div>
+            <div className='product-container'>
+                {
+                        // data.map((item) => <div className='product-item'>
+                        //     <img src={item.photo} alt="" />
+                        //     <div>Name : {item.name} </div>
+                        //     <div>Color : {item.color} </div>
+                        //     <div>Price : {item.price} </div>
+                        //     <div>Category : {item.category} </div>
+                        //     <div>Brand : {item.brand}
+                        //     </div>
+                        // </div>)
+                }
+            </div>
         </>
 
     );
